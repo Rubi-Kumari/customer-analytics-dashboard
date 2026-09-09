@@ -268,74 +268,6 @@ customer-analytics-dashboard/
 
 ---
 
-## 📖 Documentation Structure
-
-| Document | Focus | Audience | Time to Read |
-|----------|-------|----------|---|
-| **[SETUP.md](docs/SETUP.md)** | Database setup, schema creation, data loading | Database admins, data engineers | 15-20 min |
-| **[QUERIES.md](docs/QUERIES.md)** | Query specifications, outputs, use cases | Data analysts, business users | 30-40 min |
-| **[BUSINESS_LOGIC.md](docs/BUSINESS_LOGIC.md)** | Formulas, methodologies, industry benchmarks | Data scientists, analysts | 45-60 min |
-| **[HOW_TO_CHECK.md](docs/HOW_TO_CHECK.md)** | Validation procedures, testing, troubleshooting | All users | 20-30 min |
-
-**Recommended Learning Path:**
-1. SETUP.md → Database initialization and configuration
-2. HOW_TO_CHECK.md → Validate installation and run first queries
-3. QUERIES.md → Understand each query and its business application
-4. BUSINESS_LOGIC.md → Deep-dive into methodologies and advanced concepts
-
----
-
-## 📊 Sample Analytics Output
-
-### Customer Segmentation Results
-```
-Segment Analysis (Sample):
-- Champions: 500 customers | $2.5M revenue | 12+ purchases avg
-- Loyal Customers: 1,200 customers | $1.8M revenue | 8-11 purchases avg
-- At Risk: 800 customers | $600K revenue | 30+ days since purchase
-- Can't Lose Them: 600 customers | $450K revenue | High past value, inactive
-- Lost: 2,000 customers | $200K revenue | 60+ days inactive
-- Potential: 4,900 customers | $350K revenue | New or inactive
-
-Action: Allocate $50K to Champions retention programs, $80K to At Risk recovery
-```
-
-### Revenue Analysis
-```
-Monthly Revenue Trends (MoM):
-Jan 2024: $250,000 (baseline)
-Feb 2024: $287,500 (+15.0%)
-Mar 2024: $345,000 (+20.0%)
-Apr 2024: $380,000 (+10.1%)
-
-Projection: $4.2M annual revenue (+18% YoY growth)
-```
-
-### Cohort Retention
-```
-2024-01 Acquisition Cohort (1,000 customers):
-- Month 0: 100% (1,000 customers)
-- Month 1: 85% (850 customers)
-- Month 3: 65% (650 customers)
-- Month 6: 45% (450 customers)
-- Month 12: 30% (300 customers)
-
-Assessment: Product-market fit indicators strong; retention sustainable
-```
-
-### Product Performance
-```
-Top Performers by Profit:
-1. Wireless Earbuds: $125K revenue | 38% margin | $47.5K profit
-2. Mechanical Keyboard: $98K revenue | 42% margin | $41.2K profit
-3. Monitor Light Bar: $87K revenue | 45% margin | $39.2K profit
-
-Dead Stock Alert:
-- USB Cable v1: 180+ days no sales | 500 units in stock | Recommend discontinuation
-```
-
----
-
 ## 🛠️ Technical Stack
 
 | Layer | Technology | Version | Notes |
@@ -348,7 +280,7 @@ Dead Stock Alert:
 
 ---
 
-## 🎖️ Enterprise Capabilities
+## 🏆 Enterprise Capabilities
 
 **Performance & Scalability**
 - ✅ Query execution: <1s (simple) to 15s (complex aggregations)
@@ -388,7 +320,7 @@ Dead Stock Alert:
 
 ---
 
-## 📚 How to Use This Project
+## 📖 How to Use This Project
 
 **For Data Scientists:**
 - Study advanced SQL techniques: CTEs, window functions, complex aggregations
@@ -416,42 +348,11 @@ Dead Stock Alert:
 
 ---
 
-## 🏆 Production Readiness
+## 📚 Documentation
 
-**Code Quality**
-- ✅ Industry-standard SQL practices
-- ✅ Well-commented and documented queries
-- ✅ Error handling and edge case management
-- ✅ Performance-optimized execution plans
+For detailed information on setup, queries, business logic, and verification procedures, please refer to:
 
-**Testing & Validation**
-- ✅ Sample data covering all scenarios
-- ✅ Edge case coverage (nulls, zeros, outliers)
-- ✅ Referential integrity validation
-- ✅ Performance benchmark tests included
-
-**Documentation**
-- ✅ Installation and setup guides
-- ✅ Query specifications and use cases
-- ✅ Business logic and methodology
-- ✅ Troubleshooting and FAQ
-
-**Deployment**
-- ✅ Single-file schema initialization
-- ✅ Zero-dependency installation
-- ✅ Compatible with multiple database engines
-- ✅ Reproducible sample data generation
-
----
-
-## 📞 Support & Resources
-
-- **Installation Help**: See [docs/SETUP.md](docs/SETUP.md)
-- **Query Questions**: Refer to [docs/QUERIES.md](docs/QUERIES.md)
-- **Business Logic**: Review [docs/BUSINESS_LOGIC.md](docs/BUSINESS_LOGIC.md)
-- **Validation Issues**: Check [docs/HOW_TO_CHECK.md](docs/HOW_TO_CHECK.md)
-
----
-
-**Version**: 1.0.0 | **Status**: Production Ready | **Last Updated**: September 2026  
-**Maintainer**: [Rubi-Kumari](https://github.com/Rubi-Kumari) | **License**: MIT
+- **[docs/SETUP.md](docs/SETUP.md)** - Installation and database configuration
+- **[docs/QUERIES.md](docs/QUERIES.md)** - Query specifications and use cases
+- **[docs/BUSINESS_LOGIC.md](docs/BUSINESS_LOGIC.md)** - Analytics methodology and formulas
+- **[docs/HOW_TO_CHECK.md](docs/HOW_TO_CHECK.md)** - Validation and testing procedures
